@@ -86,11 +86,5 @@ public class MainActivity extends AppCompatActivity {
         addbutton.setOnClickListener(addListener);
         deletebutton.setOnClickListener(deleteListener);
         editText.setOnClickListener(addCityInput);
-
-        // https://developer.android.com/develop/ui/views/components/button
-        // https://developer.android.com/reference/android/widget/Button
-        // https://developer.android.com/develop/ui/views/touch-and-input/input-events
-        // https://developer.android.com/reference/com/google/android/material/button/MaterialSplitButton
-        // https://developer.android.com/develop/ui/views/touch-and-input/keyboard-input/style#java
     }
 }
